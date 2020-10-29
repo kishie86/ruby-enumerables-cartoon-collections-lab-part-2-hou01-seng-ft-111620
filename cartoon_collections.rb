@@ -34,7 +34,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.collect do |element|
     if valid_calls.include?(element)
     planeteer_calls.find do |first_call|
-      #return first_call
+      return first_call
     
 end
 end
